@@ -1,57 +1,58 @@
-Guess Game
-Welcome to the Guess Game repository! This project features a simple yet engaging game implemented in Python, where the player guesses a randomly generated number.
+# Guess Game
 
-🎮 Game Overview
-The game generates a random number between 1 and 20.
-Players input their guesses and receive feedback on whether their guess is higher or lower than the correct number.
-The game ends when the player correctly guesses the number, with the total number of attempts displayed.
-🔧 Technologies and Tools Used
-The game is implemented using basic Python functionality and includes the following features:
+Welcome to the **Guess Game** repository! This project features a simple, interactive number guessing game designed to be both entertaining and educational. The goal of the project is to demonstrate basic Python programming concepts.
 
-Random number generation using the random module.
-Console-based input and output for interactive gameplay.
-🚀 How to Play
-Run the Python script:
-bash
-Copy code
-python guessgame.py
-Follow the prompts to guess the number.
-The program will guide you if your guess is too high or too low.
-Keep guessing until you find the correct number.
-Sample Output
-plaintext
-Copy code
-<------------>
-  Guess Game
-<------------>
+## 🔧 Technologies and Tools Used
+This project was developed using Python and leverages:
 
-<--------------------------------->
-  Guess a number between 1 to 20
-<--------------------------------->
+1. **Random Module**: For generating random numbers.
+2. **Basic Input/Output Operations**: To interact with the player via the console.
+3. **Control Structures**: To guide the game logic and decision-making.
 
-===================================
-Enter your guess: 12
-Number is LOWER than your guess
-===================================
+## 🌐 Game Overview
+The game allows players to:
 
-...
+- Guess a number randomly generated between 1 and 20.
+- Receive feedback on whether their guess is too high, too low, or correct.
+- Track the number of attempts taken to guess the correct number.
 
-======================================
-You guessed it right! 1 is the number
-======================================
-You guessed it correctly in '5' tries!
-🤝 Contributions
-Contributions are welcome! Feel free to enhance the game by:
+Key Features:
+- Input validation to ensure guesses are within range.
+- Dynamic hints to assist the player in narrowing down the correct number.
 
-Adding difficulty levels (e.g., change the range of numbers).
-Improving the user interface.
-Extending functionality with new features.
-Fork the repository.
-Make your changes.
-Create a pull request with a clear description of your updates.
-📧 Contact
-For feedback or collaboration, reach out to:
+## 🚀 How to Play
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/cyberfantics/Guess-Game.git
+   ```
 
-Email: notfawadmir@gmail.com
-GitHub: notfawadmir
-Happy guessing! 😊
+2. Navigate to the repository folder and run the script:
+   ```bash
+   python guessgame.py
+   ```
+
+3. Follow the on-screen prompts to input your guesses.
+
+4. The game will notify you when you guess correctly and display the number of attempts taken.
+
+---
+
+## 🤝 Contributions
+Contributions are welcome! If you have ideas for improving the game, feel free to:
+
+1. **Fork the repository**.
+2. **Implement your changes**.
+3. **Create a pull request** with a detailed explanation of your updates.
+
+You can also open an **issue** to suggest features, report bugs, or provide feedback.
+
+---
+
+## 📧 Contact
+For questions, feedback, or collaboration opportunities, feel free to reach out:
+
+- **Email**: [notfawadmir@gmail.com](mailto:notfawadmir@gmail.com)
+- **GitHub**: [notfawadmir](https://github.com/notfawadmir)
+
+Happy coding and guessing! 😊
+
