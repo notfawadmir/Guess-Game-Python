@@ -23,7 +23,7 @@ Key Features:
 ## 🚀 How to Play
 1. Clone the repository:
    ```bash
-   git clone https://github.com/cyberfantics/Guess-Game.git
+   git clone https://github.com/notfawadmir/Guess-Game.git
    ```
 
 2. Navigate to the repository folder and run the script:
